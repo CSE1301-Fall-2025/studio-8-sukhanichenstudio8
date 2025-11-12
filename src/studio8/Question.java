@@ -4,6 +4,10 @@ import support.cse131.NotYetImplementedException;
 
 public class Question {
 	
+	private String prompt;
+	private String answer;
+	private int points;
+
 	/**
 	 * Constructor
 	 * @param prompt
@@ -11,7 +15,10 @@ public class Question {
 	 * @param points
 	 */
 	public Question(String prompt, String answer, int points) {
-		throw new NotYetImplementedException();
+		this.prompt=prompt;
+		this.answer=answer;
+		this.points=points;
+	
 	}
 	
 	/**
